@@ -10,10 +10,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="flex w-full max-w-7xl lg:px-8">
           <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20">
             <AnimatedGridPattern
-              numSquares={30}
+              numSquares={200}
               maxOpacity={0.1}
               duration={1}
-              repeatDelay={1}
+              repeatDelay={0.5}
               className={cn(
                 '[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]',
                 'inset-x-0 inset-y-[-20%] h-[150%] skew-y-12',

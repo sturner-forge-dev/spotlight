@@ -8,7 +8,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Steven Turner',
-    default: 'Steven Turner - Software developer, founder, and dreamer',
+    default: 'Steven Turner - Software developer and founder',
   },
   description:
     'I’m Steven, a software developer and entrepreneur based in Austin, TX. I’m the founder and CEO of Forge Applications, where we develop software geared toward fitness professionals and enthusiasts alike.',
